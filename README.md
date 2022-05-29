@@ -1,0 +1,1 @@
+# static_solo_option1
