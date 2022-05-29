@@ -1,0 +1,159 @@
+html {
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  margin: 0;
+}
+nav {
+  background-color: black;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+    background-color: #551382;
+    margin: 0;
+    padding-left: 30px;
+}
+
+ul.first-nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+ul.second-nav {
+  display: flex;
+  align-items: flex-start;
+}
+
+ul.first-nav li {
+  list-style-type: none;
+  color: #551382;
+  margin: 10px;
+  font-size: 30px;
+}
+
+ul.second-nav li {
+  list-style-type: none;
+  color: #551382;
+  margin: 10px;
+  font-size: 20px;
+}
+
+ul.first-nav a, ul.second-nav a {
+  color: #551382;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+  background-color: #551382;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+.main-container {
+  background-color: #551382;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.box {
+  box-shadow: inset 0px 0px 2px 2px black;
+  background-color: #d6d5c9;
+  height: 425px;
+  width: 22%;
+  margin: 1%;
+}
+
+.box-header {
+  border-bottom: solid;
+  height: 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#gaston {
+  background-image: url("./assets/gaston.jpg");
+}
+
+#queenhearts {
+  background-image: url("./assets/queenhearts.jpg");
+}
+
+#hook {
+  background-image: url("./assets/hook.jpg");
+}
+
+#cruella {
+  background-image: url("./assets/cruella.jpg");
+}
+
+#teka {
+  background-image: url("./assets/teka.jpg");
+}
+
+#evilqueen {
+  background-image: url("./assets/evilqueen.jpg");
+}
+
+#ursula {
+  background-image: url("./assets/ursula.jpg");
+}
+
+#maleficent {
+  background-image: url("./assets/maleficent.jpg");
+}
+
+.box-main {
+  padding: 20px;
+}
+
+h3 {
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h4 {
+  font-weight: lighter;
+  margin-top: 2px;
+}
+
+p {
+  background-color: #eef0f2;
+  font-weight: lighter;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.playlist {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-bottom: 0;
+}
+.num {
+  font-size: 30px;
+  color: #551382;
+  margin: 0;
+  padding: 0;
+  background-color: #d6d5c9;
+}
